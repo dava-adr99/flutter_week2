@@ -93,7 +93,7 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
 
   Widget build(BuildContext context, double shrinkOffset, bool overlabsContents) {
     return new Container(
-      color: Colors.blue,
+      color: Colors.green,
       child: _tabBar,
     );
   }
