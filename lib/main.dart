@@ -59,7 +59,7 @@ class BelajarAppBar extends StatelessWidget {
                       ),
                       new Tab(
                         icon: new Icon(Icons.collections),
-                        text: "Gallery",
+                        text: "Albums",
                       ),
                       new Tab(
                         icon: new Icon(Icons.playlist_play),
