@@ -32,7 +32,7 @@ class SongsContent extends StatelessWidget {
           itemCount: 10,
           itemBuilder: (BuildContext context, int index) {
             return Container(
-              height: 80,
+              height: 100,
               child: Card(
                 child: ListTile(
                   title: Text(
