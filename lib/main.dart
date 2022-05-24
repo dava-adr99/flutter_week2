@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_week_2/content/almbumList.dart';
-import 'package:flutter_week_2/content/playList.dart';
-import 'package:flutter_week_2/content/songsList.dart';
+import 'package:fluttersilverappbar/content/almbumList.dart';
+import 'package:fluttersilverappbar/content/playList.dart';
+import 'package:fluttersilverappbar/content/songsList.dart';
 
 void main() {
   runApp(MyApp());
