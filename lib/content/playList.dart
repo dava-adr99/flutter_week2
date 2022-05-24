@@ -13,7 +13,6 @@ var listFav = [
 ];
 
 class PlayListContent extends StatelessWidget {
-  var date = DateTime.now();
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView.builder(

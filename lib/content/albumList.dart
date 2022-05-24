@@ -12,7 +12,6 @@ var albums = [
 ];
 
 class AlbumContent extends StatelessWidget {
-  var date = DateTime.now();
   Widget build(BuildContext context) {
     return Scaffold(
       body: GridView.count(
