@@ -27,7 +27,7 @@ class BelajarAppBar extends StatelessWidget {
           headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
             return <Widget>[
               SliverAppBar(
-                backgroundColor: Colors.blue,
+                backgroundColor: Colors.green,
                 expandedHeight: 200.0,
                 floating: false,
                 pinned: true,
