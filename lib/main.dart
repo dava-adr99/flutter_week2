@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_week_2/content/almbumList.dart';
+import 'package:flutter_week_2/content/playList.dart';
 import 'package:flutter_week_2/content/songsList.dart';
 
 void main() {
@@ -74,10 +75,7 @@ class BelajarAppBar extends StatelessWidget {
             children: [
               SongsContent(),
               AlbumContent(),
-              new Container(
-                width: 100,
-                child: Text('1. Songs of Sadness - crying people'),
-              ),
+              PlayListContent(),
             ],
           ),
         ),
