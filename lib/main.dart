@@ -50,7 +50,7 @@ class BelajarAppBar extends StatelessWidget {
                 delegate: _SliverAppBarDelegate(
                   TabBar(
                     // indicatorColor: Colors.red,
-                    labelColor: Colors.black38,
+                    labelColor: Colors.black54,
                     unselectedLabelColor: Colors.white60,
                     tabs: [
                       new Tab(

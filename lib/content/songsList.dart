@@ -38,6 +38,7 @@ class SongsContent extends StatelessWidget {
                   title: Text(
                     '${index + 1}.' + ' ' + '${songs[random.nextInt(songs.length)]}' + ' - ' + '${artist[random.nextInt(artist.length)]}',
                     style: TextStyle(color: Colors.black, fontSize: 24.0),
+                    overflow: TextOverflow.ellipsis,
                   ),
                   subtitle: Text(
                     'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis totam, id iure perferendis earum voluptate.',
