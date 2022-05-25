@@ -55,6 +55,7 @@ class BelajarAppBar extends StatelessWidget {
           return Container(
             margin: EdgeInsets.all(5.0),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Card(
                   shape: RoundedRectangleBorder(
