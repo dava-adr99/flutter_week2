@@ -66,7 +66,7 @@ class BelajarAppBar extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Container(
-                      height: 50,
+                      height: 100,
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: images[index],
