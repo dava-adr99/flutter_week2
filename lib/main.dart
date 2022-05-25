@@ -16,14 +16,16 @@ class MyApp extends StatelessWidget {
 
 class DescribeProduct extends StatelessWidget {
   Widget build(BuildContext context) {
-    return Scaffold(
+    return MaterialApp(
       body: Container(
-        Column(children: [
-          Container(
-            height: 200,
-            color: Colors.red,
-          ),
-        ]),
+        Column(
+          children: [
+            Container(
+              height: 200,
+              color: Colors.red,
+            ),
+          ],
+        ),
       ),
     );
   }
