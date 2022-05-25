@@ -63,7 +63,7 @@ class BelajarAppBar extends StatelessWidget {
               child: Container(
                 height: 100,
                 alignment: Alignment.bottomCenter,
-                image: images[index],
+                backgroundImage: images[index],
                 child: ListTile(
                   title: Text(
                     '${productName[index]}',
