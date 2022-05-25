@@ -58,7 +58,7 @@ class DescribeProduct extends StatelessWidget {
               ),
             ),
             Container(
-              color: Colors.red,
+              padding: EdgeInsets.all(10.0),
               child: Column(
                 children: [
                   Container(
