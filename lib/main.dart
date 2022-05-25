@@ -54,52 +54,31 @@ class BelajarAppBar extends StatelessWidget {
         children: List.generate(6, (index) {
           return Container(
             margin: EdgeInsets.all(5.0),
-            child: Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
-              color: Colors.white,
-              child: SizedBox(
-                width: 300,
-                height: 100,
-                child: Column(
-                  children: <Widget>[
-                    Container(
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: images[index],
-                          fit: BoxFit.fitHeight,
-                        ),
+            child: Column(
+              children: [
+                Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(15.0),
+                  ),
+                  color: Colors.white,
+                  child: Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: images[index],
+                        fit: BoxFit.fitHeight,
                       ),
                     ),
-                    ListTile(
-                      title: Text(
-                        'Xiaomi 12 Pro',
-                        overflow: TextOverflow.ellipsis,
-                        style: TextStyle(color: Colors.black, fontSize: 24.0),
-                      ),
-                      subtitle: Text('Rp ${productPrice[index]}'),
-                    ),
-                  ],
+                  ),
                 ),
-              ),
-              //   child: Container(
-              //     alignment: Alignment.bottomCenter,
-              //     decoration: BoxDecoration(
-              //       image: DecorationImage(
-              //         image: images[index],
-              //         fit: BoxFit.fitHeight,
-              //       ),
-              //     ),
-              //     child: ListTile(
-              //       title: Text(
-              //         'Xiaomi 12 Pro',
-              //         overflow: TextOverflow.ellipsis,
-              //         style: TextStyle(color: Colors.black, fontSize: 24.0),
-              //       ),
-              //       subtitle: Text('Rp ${productPrice[index]}'),
-              //     ),
-              //   ),
+                ListTile(
+                  title: Text(
+                    'Xiaomi 12 Pro',
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(color: Colors.black, fontSize: 24.0),
+                  ),
+                  subtitle: Text('Rp ${productPrice[index]}'),
+                ),
+              ],
             ),
           );
         }),
