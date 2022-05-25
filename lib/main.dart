@@ -45,6 +45,7 @@ class DescribeProduct extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        alignment: Alignment.centerRight,
         child: Column(
           children: [
             Container(
