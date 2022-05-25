@@ -18,7 +18,7 @@ class DescribeProduct extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child Column(
+        child: Column(
           children: [
             Container(
               height: 200,
