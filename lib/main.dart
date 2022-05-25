@@ -56,6 +56,16 @@ class DescribeProduct extends StatelessWidget {
                 ),
               ),
             ),
+            Container(
+                child: Column(children: [
+              Text(
+                '${productName[0]}',
+                style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 24.0,
+                ),
+              ),
+            ]))
           ],
         ),
       ),
