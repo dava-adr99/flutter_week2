@@ -62,7 +62,7 @@ class DescribeProduct extends StatelessWidget {
                 '${productName[0]}',
                 style: TextStyle(
                   color: Colors.black,
-                  fontSize: 24.0,
+                  fontSize: 14.0,
                 ),
               ),
             ]))
