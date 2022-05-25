@@ -18,7 +18,7 @@ class DescribeProduct extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       body: Container(
-        Column(
+        child Column(
           children: [
             Container(
               height: 200,
