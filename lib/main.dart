@@ -63,6 +63,7 @@ class BelajarAppBar extends StatelessWidget {
                 width: 300,
                 height: 100,
                 child: Center(child: Text('Elevated Card'),),
+              ),
             //   child: Container(
             //     alignment: Alignment.bottomCenter,
             //     decoration: BoxDecoration(
