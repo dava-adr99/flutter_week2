@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
 class DescribeProduct extends StatelessWidget {
   Widget build(BuildContext context){
-    return{
+    return Scaffold(
       body: Container(
         Column(
           children: [
@@ -27,6 +27,6 @@ class DescribeProduct extends StatelessWidget {
           ]
         ),
       ),
-    }
+    )
   }
 }
