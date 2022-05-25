@@ -60,15 +60,18 @@ class BelajarAppBar extends StatelessWidget {
                 borderRadius: BorderRadius.circular(15.0),
               ),
               color: Colors.white,
-              child: Container(
-                alignment: Alignment.bottomCenter,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
+              child: Column(
+                children: [
+                  Container(
+                    alignment: Alignment.bottomCenter,
+                    decoration: BoxDecoration(
+                    image: DecorationImage(
                     image: images[index],
                     fit: BoxFit.fitHeight,
                   ),
                 ),
-                child: ListTile(
+                  ),
+                  ListTile(
                   title: Text(
                     '${productName[index]}',
                     overflow: TextOverflow.ellipsis,
@@ -84,6 +87,9 @@ class BelajarAppBar extends StatelessWidget {
                     ),
                   ),
                 ),
+                ],
+                
+                
               ),
             ),
             // child: Column(
