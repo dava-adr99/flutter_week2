@@ -71,6 +71,8 @@ class BelajarAppBar extends StatelessWidget {
           body: TabBarView(
             children: [
               Container(),
+              Container(),
+              Container(),
             ],
           ),
         ),
