@@ -70,7 +70,7 @@ class BelajarAppBar extends StatelessWidget {
                         fit: BoxFit.fitHeight,
                       ),
                     ),
-                    child: Text('null'),
+                    child: Text('Ini gambar dari product'),
                   ),
                 ),
                 ListTile(
