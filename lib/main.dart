@@ -53,7 +53,6 @@ class BelajarAppBar extends StatelessWidget {
         crossAxisCount: 2,
         children: List.generate(6, (index) {
           return Container(
-            height: 500,
             margin: EdgeInsets.all(5.0),
             child: Card(
               shape: RoundedRectangleBorder(
@@ -62,7 +61,7 @@ class BelajarAppBar extends StatelessWidget {
               color: Colors.white,
               child: SizedBox(
                 width: 300,
-                height: 100,
+                height: 600,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
