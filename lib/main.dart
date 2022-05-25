@@ -63,12 +63,14 @@ class BelajarAppBar extends StatelessWidget {
                   ),
                   color: Colors.white,
                   child: Container(
+                    alignment: Alignment.bottomCenter,
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         image: images[index],
                         fit: BoxFit.fitHeight,
                       ),
                     ),
+                    child: Text('null'),
                   ),
                 ),
                 ListTile(
