@@ -61,27 +61,70 @@ class BelajarAppBar extends StatelessWidget {
               ),
               color: Colors.white,
               child: Container(
-                height: 100,
+                height: 120.0,
+                width: 120.0,
                 alignment: Alignment.bottomCenter,
-                child: Image.images[index],
-                // child: ListTile(
-                //   title: Text(
-                //     '${productName[index]}',
-                //     overflow: TextOverflow.ellipsis,
-                //     style: TextStyle(
-                //       color: Colors.black,
-                //       fontSize: 24.0,
-                //     ),
-                //   ),
-                //   subtitle: Text(
-                //     'Rp ${productPrice[index]}',
-                //     style: TextStyle(
-                //       color: Color.fromARGB(255, 255, 154, 22),
-                //     ),
-                //   ),
-                // ),
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: images[index],
+                    fit: BoxFit.fitHeight,
+                  ),
+                ),
+                child: ListTile(
+                  title: Text(
+                    '${productName[index]}',
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 24.0,
+                    ),
+                  ),
+                  subtitle: Text(
+                    'Rp ${productPrice[index]}',
+                    style: TextStyle(
+                      color: Color.fromARGB(255, 255, 154, 22),
+                    ),
+                  ),
+                ),
               ),
             ),
+            // child: Column(
+            //   crossAxisAlignment: CrossAxisAlignment.start,
+            //   children: [
+            //     Card(
+            //       shape: RoundedRectangleBorder(
+            //         borderRadius: BorderRadius.circular(15.0),
+            //       ),
+            //       color: Colors.white,
+            //       child: Container(
+            //         height: 100,
+            //         alignment: Alignment.bottomCenter,
+            //         decoration: BoxDecoration(
+            //           image: DecorationImage(
+            //             image: images[index],
+            //             fit: BoxFit.fitHeight,
+            //           ),
+            //         ),
+            //         child: ListTile(
+            //           title: Text(
+            //             '${productName[index]}',
+            //             overflow: TextOverflow.ellipsis,
+            //             style: TextStyle(
+            //               color: Colors.black,
+            //               fontSize: 24.0,
+            //             ),
+            //           ),
+            //           subtitle: Text(
+            //             'Rp ${productPrice[index]}',
+            //             style: TextStyle(
+            //               color: Color.fromARGB(255, 255, 154, 22),
+            //             ),
+            //           ),
+            //         ),
+            //       ),
+            //     ),
+            //   ],
+            // ),
           );
         }),
       ),
