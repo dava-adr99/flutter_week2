@@ -23,7 +23,7 @@ class BelajarAppBar extends StatelessWidget {
         title: Text('Toko Online'),
       ),
       body: Container(
-        color: Colors.grey,
+        color: Colors.grey[50],
       ),
     );
   }
