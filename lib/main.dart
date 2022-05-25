@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
 
 class DescribeProduct extends StatelessWidget {
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return Scaffold(
       body: Container(
         child Column(
           children: [
