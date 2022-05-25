@@ -59,24 +59,28 @@ class BelajarAppBar extends StatelessWidget {
                 borderRadius: BorderRadius.circular(15.0),
               ),
               color: Colors.white,
-              child: Container(
-                alignment: Alignment.bottomCenter,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: images[index],
-                    fit: BoxFit.fitHeight,
-                  ),
-                ),
-                child: ListTile(
-                  title: Text(
-                    'Xiaomi 12 Pro',
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(color: Colors.black, fontSize: 24.0),
-                  ),
-                  subtitle: Text('Rp ${productPrice[index]}'),
-                ),
-              ),
-            ),
+              child: SizedBox(
+                width: 300,
+                height: 100,
+                child: Center(child: Text('Elevated Card'),),
+            //   child: Container(
+            //     alignment: Alignment.bottomCenter,
+            //     decoration: BoxDecoration(
+            //       image: DecorationImage(
+            //         image: images[index],
+            //         fit: BoxFit.fitHeight,
+            //       ),
+            //     ),
+            //     child: ListTile(
+            //       title: Text(
+            //         'Xiaomi 12 Pro',
+            //         overflow: TextOverflow.ellipsis,
+            //         style: TextStyle(color: Colors.black, fontSize: 24.0),
+            //       ),
+            //       subtitle: Text('Rp ${productPrice[index]}'),
+            //     ),
+            //   ),
+            // ),
           );
         }),
       ),
