@@ -47,7 +47,6 @@ class DescribeProduct extends StatelessWidget {
       body: Container(
         child: Column(
           children: [
-            Icon(Icons.arrow_back_outlined),
             Container(
               height: 300,
               decoration: BoxDecoration(
