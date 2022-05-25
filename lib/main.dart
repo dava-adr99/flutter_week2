@@ -65,6 +65,7 @@ class BelajarAppBar extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     Container(
+                      width: 200,
                       alignment: Alignment.bottomCenter,
                       decoration: BoxDecoration(
                         image: DecorationImage(
