@@ -31,8 +31,11 @@ class BelajarAppBar extends StatelessWidget {
         crossAxisCount: 2,
         children: List.generate(8, (index) {
           return Container(
+            width: 150,
+            height: 150,
+            color: Colors.red,
             child: Card(
-              color: Colors.deepPurpleAccent,
+              color: Colors.white,
               child: Container(
                 alignment: Alignment.bottomCenter,
                 decoration: BoxDecoration(
