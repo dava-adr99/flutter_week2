@@ -72,14 +72,14 @@ class BelajarAppBar extends StatelessWidget {
                           fit: BoxFit.fitHeight,
                         ),
                       ),
-                      child: ListTile(
-                        title: Text(
-                          'Xiaomi 12 Pro',
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(color: Colors.black, fontSize: 24.0),
-                        ),
-                        subtitle: Text('Rp ${productPrice[index]}'),
+                    ),
+                    ListTile(
+                      title: Text(
+                        'Xiaomi 12 Pro',
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(color: Colors.black, fontSize: 24.0),
                       ),
+                      subtitle: Text('Rp ${productPrice[index]}'),
                     ),
                   ],
                 ),
