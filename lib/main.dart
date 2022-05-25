@@ -73,9 +73,7 @@ class BelajarAppBar extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(color: Colors.black, fontSize: 24.0),
                   ),
-                  children: [
-                    Text('Rp ${productPrice[index]}'),
-                  ],
+                  subtitle: Text('Rp ${productPrice[index]}'),
                 ),
               ),
             ),
