@@ -82,6 +82,7 @@ class DescribeProduct extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
+                    subtitle: Text('Produk Kami').
                   ),
                 ],
               ),
