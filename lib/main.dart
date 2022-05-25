@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 
+var images = [
+  NetworkImage('https://images.tokopedia.net/img/cache/250-square/VqbcmM/2022/4/14/7b09176e-db37-483b-9eb2-224cd9318436.png'),
+  NetworkImage('https://images.tokopedia.net/img/cache/250-square/VqbcmM/2022/3/29/d32be0e3-26df-4a94-ac34-7aadffb1f155.jpg')
+]
+
 void main() {
   runApp(MyApp());
 }
@@ -22,8 +27,31 @@ class BelajarAppBar extends StatelessWidget {
         centerTitle: true,
         title: Text('Toko Online'),
       ),
-      body: Container(
-        color: Colors.grey[50],
+      body: GridView.count(
+        crossAxisCount: 2,
+        children: List.generate(8, (index) {
+          return Container(
+            child: Card(
+              color: Colors.deepPurpleAccent,
+              child: Container(
+                alignment: Alignment.bottomCenter,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: images[index],
+                    fit: BoxFit.fitHeight,
+                  ),
+                ),
+                child: ListTile(
+                  title: Text(
+                    '${albums[random.nextInt(albums.length)]}',
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(color: Colors.white, fontSize: 24.0),
+                  ),
+                ),
+              ),
+            ),
+          );
+        }),
       ),
     );
   }
