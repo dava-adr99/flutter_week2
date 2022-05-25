@@ -9,6 +9,24 @@ var images = [
   NetworkImage('https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/3/31/34b3e452-95d0-4196-9ad6-f505d426b1a0.jpg'),
 ];
 
+var productName = [
+  'Poco M4 Pro 8GB 256GB Smartphone - Cool Blue',
+  'Xiaomi 12 8GB 256GB Smartphone - Gray',
+  'Xiaomi 11T Pro 8GB 256GB Smartphone - Moonlight White',
+  'Xiaomi Pad 5 (WIFI) 6GB 256GB Smart Tablet - Pearl White',
+  'Redmi Note 10S 6GB 64GB Smartphone - Pebble White',
+  'Redmi 9A CKD 2GB 32GB Smartphone - Peacock Green',
+];
+
+var productPrice = [
+  '3.399.000',
+  '9.999.000',
+  '6.999.000',
+  '5.199.000',
+  '2.599.000',
+  '1.279.000',
+];
+
 void main() {
   runApp(MyApp());
 }
@@ -53,8 +71,9 @@ class BelajarAppBar extends StatelessWidget {
                   title: Text(
                     'Xiaomi 12 Pro',
                     overflow: TextOverflow.ellipsis,
-                    style: TextStyle(color: Colors.white, fontSize: 24.0),
+                    style: TextStyle(color: Colors.black, fontSize: 24.0),
                   ),
+                  child: Text('Rp ${productPrice[index]}'),
                 ),
               ),
             ),
