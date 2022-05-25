@@ -53,12 +53,12 @@ class BelajarAppBar extends StatelessWidget {
         crossAxisCount: 2,
         children: List.generate(6, (index) {
           return Container(
+            height: 300,
             margin: EdgeInsets.all(5.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Card(
-                  height: 300,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(15.0),
                   ),
