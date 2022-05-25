@@ -72,7 +72,7 @@ class BelajarAppBar extends StatelessWidget {
                 ),
                 ListTile(
                   title: Text(
-                    'Xiaomi 12 Pro',
+                    '${productName[index]}',
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(color: Colors.black, fontSize: 24.0),
                   ),
