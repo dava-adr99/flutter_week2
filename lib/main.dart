@@ -53,7 +53,7 @@ class BelajarAppBar extends StatelessWidget {
         crossAxisCount: 2,
         children: List.generate(6, (index) {
           return Container(
-            height: 300,
+            height: 500,
             margin: EdgeInsets.all(5.0),
             child: Card(
               shape: RoundedRectangleBorder(
@@ -95,43 +95,6 @@ class BelajarAppBar extends StatelessWidget {
                 ),
               ),
             ),
-            // child: Column(
-            //   crossAxisAlignment: CrossAxisAlignment.start,
-            //   children: [
-            //     Card(
-            //       shape: RoundedRectangleBorder(
-            //         borderRadius: BorderRadius.circular(15.0),
-            //       ),
-            //       color: Colors.white,
-            //       child: Container(
-            //         height: 100,
-            //         alignment: Alignment.bottomCenter,
-            //         decoration: BoxDecoration(
-            //           image: DecorationImage(
-            //             image: images[index],
-            //             fit: BoxFit.fitHeight,
-            //           ),
-            //         ),
-            //         child: ListTile(
-            //           title: Text(
-            //             '${productName[index]}',
-            //             overflow: TextOverflow.ellipsis,
-            //             style: TextStyle(
-            //               color: Colors.black,
-            //               fontSize: 24.0,
-            //             ),
-            //           ),
-            //           subtitle: Text(
-            //             'Rp ${productPrice[index]}',
-            //             style: TextStyle(
-            //               color: Color.fromARGB(255, 255, 154, 22),
-            //             ),
-            //           ),
-            //         ),
-            //       ),
-            //     ),
-            //   ],
-            // ),
           );
         }),
       ),
