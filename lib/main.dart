@@ -64,7 +64,23 @@ class BelajarAppBar extends StatelessWidget {
                 height: 100,
                 child: Column(
                   children: <Widget>[
-                    Container(),
+                    Container(
+                      alignment: Alignment.bottomCenter,
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          image: images[index],
+                          fit: BoxFit.fitHeight,
+                        ),
+                      ),
+                      child: ListTile(
+                        title: Text(
+                          'Xiaomi 12 Pro',
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(color: Colors.black, fontSize: 24.0),
+                        ),
+                        subtitle: Text('Rp ${productPrice[index]}'),
+                      ),
+                    ),
                   ],
                 ),
               ),
