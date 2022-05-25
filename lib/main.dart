@@ -52,7 +52,7 @@ class DescribeProduct extends StatelessWidget {
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: images[0],
-                  fit: BoxFit.fitHeight,
+                  fit: BoxFit.fitWidth,
                 ),
               ),
             ),
