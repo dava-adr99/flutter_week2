@@ -60,7 +60,6 @@ class DescribeProduct extends StatelessWidget {
             Container(
               alignment: Alignment.centerRight,
               color: Colors.red,
-              padding: EdgeInsets.all(10.0),
               child: Column(
                 children: [
                   Text(
