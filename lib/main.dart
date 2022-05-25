@@ -63,7 +63,9 @@ class BelajarAppBar extends StatelessWidget {
                 width: 300,
                 height: 100,
                 child: Column(
-                  children: Container(),
+                  children: <Widget>[
+                    Container(),
+                  ],
                 ),
               ),
               //   child: Container(
