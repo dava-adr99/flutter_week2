@@ -72,7 +72,7 @@ class DescribeProduct extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    alignment: Alignment.centerRight,
+                    alignment: Alignment.centerLeft,
                     child: Text(
                       'Rp ${productPrice[0]}',
                       style: TextStyle(
