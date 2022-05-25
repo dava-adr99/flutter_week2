@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersilverappbar/content/albumList.dart';
-import 'package:fluttersilverappbar/content/playList.dart';
-import 'package:fluttersilverappbar/content/songsList.dart';
 
 void main() {
   runApp(MyApp());
@@ -73,9 +70,7 @@ class BelajarAppBar extends StatelessWidget {
           },
           body: TabBarView(
             children: [
-              SongsContent(),
-              AlbumContent(),
-              PlayListContent(),
+              Container(),
             ],
           ),
         ),
