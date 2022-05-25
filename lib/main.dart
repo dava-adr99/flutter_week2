@@ -70,22 +70,21 @@ class BelajarAppBar extends StatelessWidget {
                         fit: BoxFit.fitHeight,
                       ),
                     ),
-                    child: Text('Ini gambar dari product'),
-                  ),
-                ),
-                ListTile(
-                  title: Text(
-                    '${productName[index]}',
-                    overflow: TextOverflow.ellipsis,
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 24.0,
-                    ),
-                  ),
-                  subtitle: Text(
-                    'Rp ${productPrice[index]}',
-                    style: TextStyle(
-                      color: Color.fromARGB(255, 255, 154, 22),
+                    child: ListTile(
+                      title: Text(
+                        '${productName[index]}',
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 24.0,
+                        ),
+                      ),
+                      subtitle: Text(
+                        'Rp ${productPrice[index]}',
+                        style: TextStyle(
+                          color: Color.fromARGB(255, 255, 154, 22),
+                        ),
+                      ),
                     ),
                   ),
                 ),
