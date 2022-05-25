@@ -53,6 +53,7 @@ class BelajarAppBar extends StatelessWidget {
         crossAxisCount: 2,
         children: List.generate(6, (index) {
           return Container(
+            width: 200,
             height: 500,
             margin: EdgeInsets.all(5.0),
             child: Column(children: [
