@@ -57,7 +57,7 @@ class DescribeProduct extends StatelessWidget {
               ),
             ),
             Container(
-              alignment: Alignment.start,
+              alignment: Alignment.centerRight,
               padding: EdgeInsets.all(10.0),
               child: Column(
                 children: [
