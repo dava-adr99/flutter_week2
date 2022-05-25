@@ -82,7 +82,7 @@ class BelajarAppBar extends StatelessWidget {
                   subtitle: Text(
                     'Rp ${productPrice[index]}',
                     style: TextStyle(
-                      color: Colors.orange,
+                      color: Color.fromARGB(255, 255, 154, 22),
                     ),
                   ),
                 ),
