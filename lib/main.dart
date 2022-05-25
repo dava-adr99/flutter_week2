@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 var images = [
   NetworkImage('https://images.tokopedia.net/img/cache/250-square/VqbcmM/2022/4/14/7b09176e-db37-483b-9eb2-224cd9318436.png'),
   NetworkImage('https://images.tokopedia.net/img/cache/250-square/VqbcmM/2022/3/29/d32be0e3-26df-4a94-ac34-7aadffb1f155.jpg')
-]
+];
 
 void main() {
   runApp(MyApp());
