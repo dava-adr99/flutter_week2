@@ -54,10 +54,10 @@ class BelajarAppBar extends StatelessWidget {
         children: List.generate(6, (index) {
           return Container(
             margin: EdgeInsets.all(5.0),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(15.0),
+            ),
             child: Card(
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15.0),
-              ),
               color: Colors.white,
               child: SizedBox(
                 height: 1000,
