@@ -54,13 +54,11 @@ class BelajarAppBar extends StatelessWidget {
         children: List.generate(6, (index) {
           return Container(
             margin: EdgeInsets.all(5.0),
-            child: Column(
-              children: [
-                Image(
-                  image: images[index];
-                )
-              ]
-            ),
+            child: Column(children: [
+              Image(
+                image: images[index],
+              )
+            ]),
 
             // child: Card(
             //   shape: RoundedRectangleBorder(
