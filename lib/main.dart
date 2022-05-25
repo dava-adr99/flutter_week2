@@ -70,7 +70,6 @@ class BelajarAppBar extends StatelessWidget {
                         fit: BoxFit.fitHeight,
                       ),
                     ),
-                    shape: BoxShape.circle,
                   ),
                   ListTile(
                     title: Text(
