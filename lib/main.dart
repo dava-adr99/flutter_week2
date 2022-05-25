@@ -62,6 +62,7 @@ class DescribeProduct extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
+                    margin: EdgeInsets.only(bottom: 10.0),
                     child: Text(
                       '${productName[0]}',
                       style: TextStyle(
