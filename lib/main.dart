@@ -60,8 +60,7 @@ class BelajarAppBar extends StatelessWidget {
               ),
               color: Colors.white,
               child: SizedBox(
-                width: 300,
-                height: 600,
+                height: 1000,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
