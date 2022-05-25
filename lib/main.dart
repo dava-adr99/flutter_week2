@@ -65,8 +65,6 @@ class BelajarAppBar extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     Container(
-                      width: 200,
-                      color: Colors.red,
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: images[index],
