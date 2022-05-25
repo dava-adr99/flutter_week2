@@ -27,6 +27,6 @@ class DescribeProduct extends StatelessWidget {
           ]
         ),
       ),
-    )
+    );
   }
 }
