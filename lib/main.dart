@@ -58,7 +58,6 @@ class DescribeProduct extends StatelessWidget {
               ),
             ),
             Container(
-              alignment: Alignment.centerRight,
               color: Colors.red,
               child: Column(
                 children: [
@@ -73,6 +72,7 @@ class DescribeProduct extends StatelessWidget {
                     ),
                   ),
                   Container(
+                    alignment: Alignment.centerRight,
                     child: Text(
                       'Rp ${productPrice[0]}',
                       style: TextStyle(
