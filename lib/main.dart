@@ -85,13 +85,21 @@ class DescribeProduct extends StatelessWidget {
                   ),
                   Container(
                     alignment: Alignment.centerLeft,
-                    child: Text(
-                      'Produk dari',
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 16.0,
-                        fontWeight: FontWeight.bold,
-                      ),
+                    child: Row(
+                      children: [
+                        Text(
+                          'Produk dari',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 16.0,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        Icon(
+                          Icons.arrow_back_outlined,
+                          color: Colors.green,
+                        ),
+                      ],
                     ),
                   ),
                 ],
