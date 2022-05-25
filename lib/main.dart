@@ -62,20 +62,24 @@ class DescribeProduct extends StatelessWidget {
               color: Colors.red,
               child: Column(
                 children: [
-                  Text(
-                    '${productName[0]}',
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
+                  Container(
+                    child: Text(
+                      '${productName[0]}',
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
-                  Text(
-                    'Rp ${productPrice[0]}',
-                    style: TextStyle(
-                      color: Colors.orange,
-                      fontSize: 18.0,
-                      fontWeight: FontWeight.bold,
+                  Container(
+                    child: Text(
+                      'Rp ${productPrice[0]}',
+                      style: TextStyle(
+                        color: Colors.orange,
+                        fontSize: 18.0,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ),
                 ],
