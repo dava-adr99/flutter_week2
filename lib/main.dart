@@ -19,7 +19,7 @@ class BelajarAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: DefaultTabController(
-        length: 3,
+        length: 1,
         child: NestedScrollView(
           headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
             return <Widget>[
@@ -53,14 +53,6 @@ class BelajarAppBar extends StatelessWidget {
                       new Tab(
                         icon: new Icon(Icons.audiotrack),
                         text: "Songs",
-                      ),
-                      new Tab(
-                        icon: new Icon(Icons.collections),
-                        text: "Albums",
-                      ),
-                      new Tab(
-                        icon: new Icon(Icons.playlist_play),
-                        text: "Playlist",
                       ),
                     ],
                   ),
