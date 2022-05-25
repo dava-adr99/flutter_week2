@@ -43,7 +43,7 @@ class BelajarAppBar extends StatelessWidget {
                 ),
                 child: ListTile(
                   title: Text(
-                    '${albums[random.nextInt(albums.length)]}',
+                    'Xiaomi 12 Pro',
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(color: Colors.white, fontSize: 24.0),
                   ),
