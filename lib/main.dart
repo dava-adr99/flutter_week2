@@ -48,7 +48,7 @@ class DescribeProduct extends StatelessWidget {
         child: Column(
           children: [
             Container(
-              height: 200,
+              height: 300,
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: images[0],
