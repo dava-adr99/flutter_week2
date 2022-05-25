@@ -62,7 +62,8 @@ class BelajarAppBar extends StatelessWidget {
               child: SizedBox(
                 width: 300,
                 height: 100,
-                child: Container(
+                children: <Widget>[
+                  Container(
                   alignment: Alignment.bottomCenter,
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -70,7 +71,7 @@ class BelajarAppBar extends StatelessWidget {
                       fit: BoxFit.fitHeight,
                     ),
                   ),
-                  child: ListTile(
+                  ListTile(
                     title: Text(
                       'Xiaomi 12 Pro',
                       overflow: TextOverflow.ellipsis,
@@ -80,6 +81,7 @@ class BelajarAppBar extends StatelessWidget {
                   ),
                 ),
               ),
+                ]
             ),
           );
         }),
