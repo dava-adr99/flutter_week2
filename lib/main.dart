@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tokoonline/temp.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +23,12 @@ class DescribeProduct extends StatelessWidget {
           children: [
             Container(
               height: 200,
-              color: Colors.red,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: images[0],
+                  fit: BoxFit.fitHeight,
+                ),
+              ),
             ),
           ],
         ),
