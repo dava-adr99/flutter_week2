@@ -82,7 +82,6 @@ class BelajarAppBar extends StatelessWidget {
                       subtitle: Text('Rp ${productPrice[index]}'),
                     ),
                   ]
-                ),
             ),
           );
         }),
