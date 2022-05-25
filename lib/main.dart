@@ -40,6 +40,9 @@ class BelajarAppBar extends StatelessWidget {
             child: Card(
               color: Colors.white,
               child: Container(
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(15.0),
+                ),
                 alignment: Alignment.bottomCenter,
                 decoration: BoxDecoration(
                   image: DecorationImage(
