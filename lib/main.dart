@@ -57,8 +57,9 @@ class DescribeProduct extends StatelessWidget {
               ),
             ),
             Container(
-                padding: EdgeInsets.all(10.0),
-                child: Column(children: [
+              padding: EdgeInsets.all(10.0),
+              child: Column(
+                children: [
                   Text(
                     '${productName[0]}',
                     style: TextStyle(
@@ -67,7 +68,17 @@ class DescribeProduct extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                ]))
+                  Text(
+                    'Rp ${productPrice[0]}',
+                    style: TextStyle(
+                      color: Colors.orange,
+                      fontSize: 18.0,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
