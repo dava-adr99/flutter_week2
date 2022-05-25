@@ -55,43 +55,75 @@ class BelajarAppBar extends StatelessWidget {
           return Container(
             height: 300,
             margin: EdgeInsets.all(5.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Card(
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(15.0),
+            child: Card(
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(15.0),
+              ),
+              color: Colors.white,
+              child: Container(
+                height: 100,
+                alignment: Alignment.bottomCenter,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: images[index],
+                    fit: BoxFit.fitHeight,
                   ),
-                  color: Colors.white,
-                  child: Container(
-                    height: 100,
-                    alignment: Alignment.bottomCenter,
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        image: images[index],
-                        fit: BoxFit.fitHeight,
-                      ),
+                ),
+                child: ListTile(
+                  title: Text(
+                    '${productName[index]}',
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 24.0,
                     ),
-                    child: ListTile(
-                      title: Text(
-                        '${productName[index]}',
-                        overflow: TextOverflow.ellipsis,
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 24.0,
-                        ),
-                      ),
-                      subtitle: Text(
-                        'Rp ${productPrice[index]}',
-                        style: TextStyle(
-                          color: Color.fromARGB(255, 255, 154, 22),
-                        ),
-                      ),
+                  ),
+                  subtitle: Text(
+                    'Rp ${productPrice[index]}',
+                    style: TextStyle(
+                      color: Color.fromARGB(255, 255, 154, 22),
                     ),
                   ),
                 ),
-              ],
+              ),
             ),
+            // child: Column(
+            //   crossAxisAlignment: CrossAxisAlignment.start,
+            //   children: [
+            //     Card(
+            //       shape: RoundedRectangleBorder(
+            //         borderRadius: BorderRadius.circular(15.0),
+            //       ),
+            //       color: Colors.white,
+            //       child: Container(
+            //         height: 100,
+            //         alignment: Alignment.bottomCenter,
+            //         decoration: BoxDecoration(
+            //           image: DecorationImage(
+            //             image: images[index],
+            //             fit: BoxFit.fitHeight,
+            //           ),
+            //         ),
+            //         child: ListTile(
+            //           title: Text(
+            //             '${productName[index]}',
+            //             overflow: TextOverflow.ellipsis,
+            //             style: TextStyle(
+            //               color: Colors.black,
+            //               fontSize: 24.0,
+            //             ),
+            //           ),
+            //           subtitle: Text(
+            //             'Rp ${productPrice[index]}',
+            //             style: TextStyle(
+            //               color: Color.fromARGB(255, 255, 154, 22),
+            //             ),
+            //           ),
+            //         ),
+            //       ),
+            //     ),
+            //   ],
+            // ),
           );
         }),
       ),
