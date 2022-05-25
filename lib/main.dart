@@ -37,7 +37,7 @@ class BelajarAppBar extends StatelessWidget {
                 alignment: Alignment.bottomCenter,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: images[index],
+                    image: images[0],
                     fit: BoxFit.fitHeight,
                   ),
                 ),
